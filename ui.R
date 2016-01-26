@@ -5,7 +5,8 @@ shinyUI(pageWithSidebar(
                 h3('Your task is to predict mpg, using chosen independent variables'),
                 checkboxGroupInput("vars", "Independent variables", 
                                    c("cyl" = "cyl", "disp" = "disp", "hp" = "hp", "wt" = "wt", "qsec" = "qsec", "gear" = "gear"),selected = c("wt")),
-                h3("Github repo: ")
+                h3("Github repo:"),
+                h6("https://github.com/Libum/DDP_Coursera.git")
                 
         ),
         mainPanel(
